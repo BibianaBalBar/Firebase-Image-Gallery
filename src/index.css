@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
 
 :root {
-  --primary: #efb6b2;
-  --secondary: #4e4e4e;
-  --error: #ff4a4a;
+  --primary: #79bed9;
+  --secondary: #7668a6;
+  --error: #f29bc4;
 }
 
 /* base styles & title */
 body {
-  font-family: "Noto Serif";
+  font-family: "Zilla Slab", serif;
   color: var(--secondary);
 }
 .App {
@@ -16,18 +16,22 @@ body {
   margin: 0 auto;
 }
 .title h1 {
+  font-family: "Lobster", cursive;
   color: var(--primary);
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   letter-spacing: 2px;
   font-weight: normal;
 }
 .title h2,
 .title p {
   text-align: center;
+  font-size: 1.2rem;
 }
 .title h2 {
   margin-top: 60px;
-  font-size: 2.6rem;
+  font-size: 3.8rem;
+  font-family: "Lobster", cursive;
+  letter-spacing: 0.8rem;
 }
 
 /* upload form styles */
@@ -93,6 +97,7 @@ label:hover {
   top: 0;
   left: 0;
   object-fit: cover;
+  cursor: pointer;
 }
 
 /* modal styles */
@@ -110,5 +115,5 @@ label:hover {
   max-height: 80%;
   margin: 60px auto;
   box-shadow: 15px 18px 18px rgba(0, 0, 0, 0.5);
-  border: 1px solid white;
+  border: 1px solid #79bed9;
 }
