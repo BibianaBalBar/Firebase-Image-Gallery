@@ -5,7 +5,7 @@ const Title = () => {
     <div className="title">
       <h1>My Ideal Life</h1>
       <h2>Life Goals</h2>
-      <p>To inspire my extraordinary life!</p>
+      <p>Images to inspire my extraordinary life!</p>
     </div>
   )
 }

@@ -119,3 +119,16 @@ label:hover {
 }
 
 /* Delete Button */
+
+/* Mobile */
+@media (max-width: 800px) {
+  .img-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .img-grid {
+    grid-template-columns: 1fr;
+  }
+}
